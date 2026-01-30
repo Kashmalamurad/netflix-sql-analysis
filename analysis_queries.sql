@@ -125,7 +125,7 @@ country
 ORDER BY
 (sum (case when show_type= 'Movie' then 1 else 0 END) +
  sum (case when show_type = 'TV Show' then 1 else 0 END)) DESC;
-
+ 
 --10.Which movie or TV Show has the longest duration?
 
 --Movie:
